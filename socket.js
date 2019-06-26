@@ -10,7 +10,7 @@ class Socket {
     this.lockReconnect = false // 避免重复连接
     this.tt = ''
     this.heartCheck = {
-      timeout: 12 * 1000,
+      timeout: 15 * 1000,
       timeoutObj: null,
       serverTimeoutObj: null,
       start: () => {
